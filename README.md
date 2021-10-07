@@ -22,3 +22,7 @@ Cela produira en console le jeu de test pour le critère VNF du prédicat S2, et
 clause majeure des prédicats S1 et S2.
 
 ![](./img/output_S2_VNF.png)
+
+### Tests
+L'implémentation des critères RACC & RICC est testée. Pour cela, nous prenons les paramètres générés, et on vérifie si cela
+couvre réellement le bon critère, pour chaque clause majeure donnée. Ceci est fait dans le fichier ```test_criteres.py```.
